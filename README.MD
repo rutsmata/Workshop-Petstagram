@@ -1,0 +1,3 @@
+This is JS Back-End workshop project. 
+It is an application using Express.js as a back-end framework and MongoDB as a database with mongoose. View-engine is express-handlebars. Use of bcrypt for hashing the password. Use of Validation and Error Handling as well as Authentication and Authorisation. Default provided HTML and CSS 
+This application is for pets. Guests may use it to review pet-photos. Log-in users may be able to create their pet-posts and comment on photo posts they are interested in
