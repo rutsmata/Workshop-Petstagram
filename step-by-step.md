@@ -120,9 +120,6 @@ Exam:
                 {{>petPhoto}}
             {{else}}
                     <!--If there are no photo yet!-->
-                    <article class="not-available-photo">
-                        <h1>No photo posts yet.</h1>
-                    </article>
             {{/each}}
         -- go to photoController and add second parameter with curly brakets {photos} in the relevant get, which should come as a result of getAll function added now in the Manager. Add lean() at the end. Use try-catch
         -- return to photoManager and prepare getAll function which will find and extract all data for the Photo model from the db
